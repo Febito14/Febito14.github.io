@@ -1,0 +1,118 @@
+/* RIWAYAT */
+.purchase-history table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 5rem;
+}
+
+.purchase-history th,
+.purchase-history td {
+  border: 1px solid #ddd;
+  padding: 5px;
+  text-align: center;
+}
+
+.purchase-history th {
+  background-color: #5a2403;
+  color: #fff;
+}
+
+.purchase-history tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.purchase-history ul {
+  margin: 0;
+  padding: 0;
+}
+
+.purchase-history ul li {
+  list-style-type: none;
+}
+
+/* Tambahkan gaya untuk tombol edit dan hapus */
+.edit-button,
+.delete-button {
+  padding: 5px 10px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  margin: 5px; /* Add margin to separate buttons */
+  display: inline-block; /* Ensure buttons are inline */
+  box-sizing: border-box; /* Maintain padding and border size */
+}
+
+.edit-button {
+  background-color: #4caf50; /* Hijau */
+}
+
+.edit-button:hover {
+  background-color: #00dd0b;
+}
+
+.delete-button {
+  background-color: #f44336; /* Merah */
+}
+
+.delete-button:hover {
+  background-color: #ff1100;
+}
+
+/* RIWAYAT END */
+
+/* RIWAYAT EDIT */
+.riwayatedit {
+  margin: 20px auto;
+  width: 50%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 9rem;
+  margin-bottom: 3rem;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.edit-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #090909;
+  font-size: 3rem;
+}
+
+.edit-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.edit-form input[type="text"],
+.edit-form input[type="number"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.edit-form input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #0ea513;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  position: relative;
+  justify-content: center;
+}
+
+.edit-form input[type="submit"]:hover {
+  background-color: #c70000;
+}
+/* RIWAYAT EDIT END */
